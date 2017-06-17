@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body {background-color: powderblue;}
+        #input{
+            height:100px;
+        }
+        </style>
+    </head>
+<body>
+    <h1>Encryptor</h1>
+    <button id="enc"type="button">Encryption</button>
+    <button id="de"type="button">Decryption</button>
+    <br>
+    <button id="ewwk"type="button">Encryption With Word Key</button>
+    <button id="dwwk"type="button">Decryption With Word Key</button>
+    <br>
+    <button id="clear"type="button">Clear Output</button>
+    <form>
+      Key:<br>
+      <input id="shiftKey" type="number" name="Key" min="0" max="25" value="0">
+      <h4>Or this </h4>
+      <input id="shiftWord" type="text" name="WordKey"><br>
+    </form>
+    <form>
+      Input:<br>
+      <input id="input" type="text" name="Input" value="enter text."><br>
+    </form>
+    <p id="output">output: </p>
+    <script src="index2.js"></script>
+</body>
+</html>
